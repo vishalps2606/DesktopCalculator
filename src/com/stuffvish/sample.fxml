@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="paneID" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.stuffvish.Controller">
+    <children>
+        <Label fx:id="label1" layoutX="22.0" layoutY="55.0" text="1st Number"/>
+        <Label fx:id="label2" layoutX="22.0" layoutY="94.0" text="2nd Number"/>
+        <TextField fx:id="textField1" layoutX="116.0" layoutY="51.0" prefHeight="15.0" prefWidth="150.0"/>
+        <TextField fx:id="textField2" layoutX="116.0" layoutY="90.0" prefHeight="15.0" prefWidth="150.0"/>
+        <ChoiceBox fx:id="choiceBox" layoutX="123.0" layoutY="138.0" prefHeight="25.0" prefWidth="137.0"/>
+        <Label fx:id="label3" alignment="CENTER" layoutX="14.0" layoutY="142.0" prefHeight="17.0" prefWidth="99.0"
+               text="Select Operation"/>
+        <Button fx:id="resultButton" layoutX="118.0" layoutY="196.0" mnemonicParsing="false" text="Calculate"/>
+    </children>
+</Pane>
