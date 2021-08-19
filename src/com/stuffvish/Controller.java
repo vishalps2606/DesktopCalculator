@@ -60,7 +60,7 @@ public class Controller implements Initializable {
 			else if (choiceBox.getSelectionModel().getSelectedItem().equals(divide))
 				result = enteredNumber1 / enteredNumber2;
 			else if (choiceBox.getSelectionModel().getSelectedItem().equals(modulus))
-				result = (enteredNumber1*100) / enteredNumber2;
+				result = enteredNumber1 % enteredNumber2;
 
 			display(result);
 
